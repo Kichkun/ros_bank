@@ -15,7 +15,7 @@
         android:layout_weight="2"
         android:paddingStart="10dp"
         android:paddingLeft="10dp"
-        android:paddingTop="20dp"
+        android:paddingTop="60dp"
         android:paddingEnd="20dp"
         android:paddingRight="20dp"
         android:paddingBottom="20dp">
@@ -220,6 +220,8 @@
                 android:id="@+id/floatingActionButton13"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 android:clickable="true"
                 android:focusable="true"
@@ -227,9 +229,7 @@
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 app:backgroundTint="@android:color/holo_orange_light"
-                app:srcCompat="@android:drawable/ic_dialog_info"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp" />
+                app:srcCompat="@android:drawable/ic_dialog_info" />
 
             <EditText
                 android:id="@+id/push3"

@@ -6,30 +6,255 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ScrollingActivity"
-    tools:showIn="@layout/activity_scrolling">
+    tools:showIn="@layout/activity_scrolling"
+    android:baselineAligned="false">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+    <TableLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:clickable="true"
-        android:focusable="true"
-        app:srcCompat="?android:attr/textCheckMarkInverse" />
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
 
-    <EditText
-        android:id="@+id/package_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:ems="10"
-        android:inputType="textMultiLine|textImeMultiLine|textPersonName"
-        android:text="@string/name"
-        android:importantForAutofill="no" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@color/colorPrimary"
+                app:srcCompat="?android:attr/textCheckMarkInverse" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@android:color/holo_orange_light"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <EditText
+                android:id="@+id/push1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="push1" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@color/colorAccent"
+                app:srcCompat="?android:attr/textCheckMarkInverse" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@color/colorPrimary"
+                app:srcCompat="?android:attr/textCheckMarkInverse" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@android:color/holo_orange_light"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <EditText
+                android:id="@+id/push"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="push2" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@color/colorAccent"
+                app:srcCompat="?android:attr/textCheckMarkInverse" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@color/colorPrimary"
+                app:srcCompat="?android:attr/textCheckMarkInverse" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@android:color/holo_orange_light"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <EditText
+                android:id="@+id/push2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="push3" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@color/colorAccent"
+                app:srcCompat="?android:attr/textCheckMarkInverse" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@color/colorPrimary"
+                app:srcCompat="?android:attr/textCheckMarkInverse" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@android:color/holo_orange_light"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <EditText
+                android:id="@+id/push3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="push4" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:backgroundTint="@color/colorAccent"
+                app:srcCompat="?android:attr/textCheckMarkInverse" />
+        </TableRow>
+    </TableLayout>
 
 </LinearLayout>
