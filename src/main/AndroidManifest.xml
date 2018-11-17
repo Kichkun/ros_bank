@@ -40,6 +40,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kish.myapplication.ScrollingActivity" />
         </activity>
+        <activity android:name=".Package"></activity>
     </application>
 
 </manifest>

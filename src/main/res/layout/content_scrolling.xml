@@ -30,6 +30,6 @@
         android:ems="10"
         android:inputType="textMultiLine|textImeMultiLine|textPersonName"
         android:text="@string/name"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no" tools:targetApi="o"/>
 
 </LinearLayout>
